@@ -11,7 +11,7 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
 ];
 
-let sequenceNumber = +prompt('Write a sequence number of object to use get from array:') - 1;
+let sequenceNumber = +prompt('Write a sequence number of object to get from array:') - 1;
 
 if (isNaN(sequenceNumber) || sequenceNumber >= coursesAndDurationArray.length) {
     alert('Incorrect Data')
