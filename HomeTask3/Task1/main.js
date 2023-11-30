@@ -11,7 +11,7 @@ for (let i = 0; i < 10; i++) {
 
 let i = 0;
 while (i < 20) {
-    document.write(`<h1> ${i} Hello OktenWeb</h1>`)
+    document.write(`<h1> ${i+1}Hello OktenWeb</h1>`)
     i++;
 }
 

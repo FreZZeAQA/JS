@@ -35,7 +35,7 @@ for (const user of users) {
 console.log('-------------------------')
 
 for (const user of users) {
-    if (user.age){
+    if (user.age>30){
         console.log(user)
     }
 }
